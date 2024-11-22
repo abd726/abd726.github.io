@@ -1,0 +1,48 @@
+body{
+
+
+height: 100vh;
+width: 100vw;
+margin: 0px;
+}
+header{
+grid-area: h;
+background-color: lightgrey;
+border-radius: 10px;
+}
+nav{
+    grid-area: n;
+background-color: mediumorchid;
+border-radius: 10px;
+}
+aside{
+    grid-area: a;
+   background-color: violet;
+    border-radius: 10px;
+}
+main{
+ grid-area: m;
+ background-color:darkmagenta;
+ border-radius: 10px;
+}
+
+footer{
+    grid-area: f;
+ background-color: orchid;;
+    border-radius: 10px;
+}
+
+#wrapper{
+    height: 100%;
+    width: 100%;
+    display: grid;
+grid-template-columns: 40% 60%;
+grid-template-rows: 10% 10% 70% 10%;
+
+grid-template-areas: 
+
+"h h"
+"n n"
+"a m"
+"f f";
+}

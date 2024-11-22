@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.ruta {
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+    color: white; /* Textfärg för kontrast */
+}
+
+#ruta1 {
+    width: 100%;
+    height: 300px;
+    background-color: #4CAF50; /* Grön färg */
+}
+
+#ruta-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Lägger till ett mellanrum på 20px */
+}
+
+#ruta2 {
+    width: 65%;
+    height: 200px;
+    background-color: #2196F3; /* Blå färg */
+}
+
+#ruta3 {
+    width: 30%;
+    height: 200px;
+    background-color: #FF5722; /* Orange färg */
+}
+
+#ruta4 {
+    width: 100%;
+    height: 150px;
+    background-color: #9C27B0; /* Lila färg */
+}
+
+}

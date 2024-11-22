@@ -1,0 +1,22 @@
+
+
+div{
+
+height: 800px;
+width: 800px;
+
+
+}
+
+#ruta1{
+
+    background-color: crimson;
+}
+
+#ruta2{
+
+    background-color: gold;
+}
+#container{
+    display:flex
+}
